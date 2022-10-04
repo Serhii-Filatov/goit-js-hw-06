@@ -23,7 +23,7 @@ button {
   cursor: pointer;
 }
 
-/*gallery*/
+/* gallery */
 .gallery {
   display: flex;
   list-style: none;
