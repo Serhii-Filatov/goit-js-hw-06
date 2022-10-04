@@ -9,7 +9,7 @@ const refs = {
   span: document.querySelector('#text'),
 };
 
-const changeTextSize = event => {
+const changeTextSize = (event) => {
   refs.span.style.fontSize = `${event.currentTarget.value}px`;
 };
 
