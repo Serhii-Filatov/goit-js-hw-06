@@ -10,15 +10,12 @@
 const ingredients = ['Potatoes', 'Mushrooms', 'Garlic', 'Tomatos', 'Herbs', 'Condiments'];
 
 for (const ingredient of ingredients) {
-  
   const liRef = document.createElement('li');
   liRef.textContent = ingredient;
   liRef.classList.add('item');
-  
+
   const element = document.querySelector('#ingredients');
   element.append(liRef);
-  
+
   console.log(liRef);
 }
-
-
